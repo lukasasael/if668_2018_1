@@ -1,0 +1,78 @@
+\documentclass[a4paper]{article}
+
+%% Language and font encodings
+\usepackage[portuguese]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\fontsize{10}{10}\selectfont
+%% Sets page size and margins
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+%% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+\title{IF702 - Redes Neurais}
+\author{Pedro Caminha}
+\begin{document}
+\maketitle
+
+
+
+\section{Introdução}
+
+\subsection{Características de Cadeira}
+
+A cadeira Redes Neurais é de caráter eletivo, podendo ser paga por graduandos do curso de Ciência da computação a partir do 6º período. A mesma não possui pré-requisitos e co-requisitos e é ministrada pelo eminente Professor Germano Vasconcelos, quando é ofertada, geralmente no segundo semestre do ano.
+
+\subsection{Visão Geral}
+
+A disciplina se encaixa nas áreas de Inteligência Artificial e Biocomputação, trazendo uma visão sobre os modelos de Hopfield, Kohonen e ART, além de redes recorrentes e auto-organizáveis. A cadeira conta com um projeto de conclusão que tem por objetivo principal a análise de uma Rede Neural no MATLAB(plataforma de ensino voltado ao cálculo numérico).
+\section{Importância das Redes Neurais}
+
+Primeiramente, as Redes Neurais são definidas como uma técnica para captação de valores de entrada inspiradas no sistema nervoso central, de acordo com o livro ``Redes neurais artificiais: teoria e aplicações\cite{braga2000redes}''.
+
+Atualmente, as Redes Neurais apresentam um papel de destaque dentro da computação, como foi comprovado pelo Hyper Cycle\cite{hypercycle17} publicado pela Gartner em 2017, ``AI technologies will be the most disruptive class of technologies over the next 10 years due to radical computational power, near-endless amounts of data and unprecedented advances in deep neural networks'' (Tecnologias de IA serão a classe tecnológica mais disruptiva nos próximos 10 anos, devido ao imenso poder computacional, quantidades quase infinitas de dados e avanços sem precedentes em redes neurais profunda).
+
+Além disso, as Redes Neurais possuem grande aplicabilidade, como por exemplo robôs que desarmam bombas e softwares de reconhecimento de voz. 
+
+ A figura \cite{Artificial_neural_network} seguir, é um exemplo de uma Rede Neural, onde as setas representam as entradas, os círculos os neurônios e links ocultos e no fim, a saída.
+ 
+ \begin{figure}
+\centering
+\includegraphics[width=0.40\textwidth]{Artificial_neural_network.png}
+\label{fig:Exemplo de Rede Neural}
+\end{figure}
+
+\section{Relacionamento com outras cadeiras}
+\begin{table}[h]
+\centering
+
+\begin{tabular}{|l|p{9.0cm}|}\hline
+Cadeira & Como se relaciona \\\hline
+IF672- Algorítimos e Estruturas de Dados & As Redes Neurais tratam-se de algorítmos complexos e tem por objetivo-meio solucionar os problemas que requerem alto grau de processamento, objetivo similar ao da disciplina IF672.  \\\hline
+IF699- Aprendizagem de Máquina & Além de ser a área onde as Redes Neurais se inserem, a cadeira tem por objetivo, o estudo de algorítimos para análise de dados e reconhecimentos de padrões .\\\hline
+IF684- Sistemas Inteligentes & A cadeira baseia-se no aprendizado de máquina e nas escolhas mais eficientes, elementos fundamentais às Redes Neurais. \\\hline
+
+
+\end{tabular}
+\textit{\caption{\label{tab:widgets}Como a cadeira de Rede Neurais se relaciona com outras cadeiras.}
+}\end{table}
+\section{Referências Bibliográficas da disciplina}
+Estas são as referências listadas no site da Disciplina:
+\begin{enumerate}
+\item Neural Computing : An Introduction. R. Beale, T. Jackson. (1990).\cite{beale1990neural}
+\item Redes Neurais Artificiais: Teoria e Aplicações. Braga, A.P, Ludermir, T.B, Carvalho, A. F. (2000)\cite{braga2000redes}
+\item Neural Networks and Deep Learning. Michael Nielsen. (2015).\cite{nielsen2015neural}  
+\item Neural Computation: A Comprehensive Foundation. Simon Haykin. (2004).\cite{haykin2004comprehensive}
+
+\end{enumerate}
+
+
+\bibliographystyle{unsrt}
+\bibliography{phcl}
+
+
+\end{document}
