@@ -1,0 +1,78 @@
+\documentclass[a4paper]{article}
+
+%% Language and font encodings
+\usepackage[brazilian]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+
+%% Sets page size and margins
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+%% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{float}
+\usepackage{array}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=false,
+    pdfborder={0 0 0},
+}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+\title{FI582 - Física para Computação}
+\author{Mateus Loureiro}
+
+\begin{document}
+\maketitle
+
+\section{Introdução}
+
+A disciplina Física para Computação é obrigatória, programada para o segundo período, que possui como co-requisito a disciplina MA026 - Cálculo Diferencial e Integral 1 e nenhum pré-requisito. Atualmente, a disciplina é ministrada pelo professor Pedro Valadão\cite{SiteSecGrad} às terças e quintas-feiras no horário da tarde. Segundo o CInWiki\cite{CInWiki:FC}, os livros textos utilizados na disciplina são a coleção "Fundamentos da Física"\cite{halliday2010fundamentals} e o livro "Physics for Computer Science Students: With Emphasis on Atomic and Semiconductor Physics"\cite{garcia1998physics}, não disponível em português.
+
+A cadeira trata dos tópicos mais básicos da física clássica, sendo eles a mecânica, o eletromagnetismo, o estudo das ondas e da termodinâmica, sendo essencial para o estudo dos componentes físicos do hardware.
+
+\section{Relevância}
+
+A disciplina revisa e ensina diversos assuntos da física clássica, sendo a porta de entrada para o ramo da computação ligado ao entendimento e criação de componentes eletrônicos. É nessa cadeira que são ensinados os primeiros tópicos acerca de eletricidade e eletromagnetismo, assuntos cruciais para o estudo dos circuitos, componentes essenciais dos aparelhos eletrônicos. Um dos exemplos da aplicação prática da disciplina é a produção de equipamentos de visão noturna, que dependem, atualmente, do efeito fotoelétrico (assunto estudado na disciplina) para existirem\cite{EfeitoFotoeletrico:Wiki}.
+
+Dentro da computação, a cadeira também é importante na criação de programas utilizados na engenharia para fazer cálculos físicos, tais como programas para projeto de edifícios na construção civil. Além disso, quaisquer programas que busquem retratar a realidade precisam de conhecimentos físicos para sua criação, tais como criação de jogos e efeitos especiais no cinema.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.3\textwidth]{Photoelectric_effect.png}
+\caption{\label{fig:EfeitoFotoeletrico}Diagrama do Efeito Fotoelétrico.\cite{photoelectric_effect:WC}}
+\end{figure}
+
+\subparagraph{Pontos Positivos}
+\begin{itemize}
+\item Engloba a maioria dos assuntos de física necessários para a maioria dos estudantes de Ciências da Computação;
+\item Introdução ao estudo da eletricidade e eletromagnetismo, cruciais para a fabricação dos componentes eletrônicos.
+\end{itemize}
+
+\subparagraph{Pontos Negativos}
+\begin{itemize}
+\item Por ser muito ampla, não é muito profunda, sendo necessário o estudo de outras cadeiras para que o estudante possa criar uma boa base nos conhecimentos da física. 
+\end{itemize}
+
+\section{Disciplinas Relacionadas}
+
+\begin{table}[H]
+\centering
+\label{my-label}
+\begin{tabular}{|l|L{6cm}|}
+\hline
+DISCIPLINA & COMO SE RELACIONAM \\ \hline
+FI006 - Física Geral 1 & Aprofunda os conhecimentos na área de mecânica \\ \hline
+FI007 - Física Geral 2 & Aprofunda os conhecimentos nas áreas de ondulatória e termodinâmica \\ \hline
+EL215 - Circuitos Elétricos 1A & Cadeira obrigatória do curso de Engenharia da Computação, aplica os conhecimentos de elétrica para o estudo aprofundado de circuitos
+\\ \hline
+\end{tabular}
+\end{table}
+
+\bibliographystyle{unsrt}
+\bibliography{mll5}
+
+\end{document}
