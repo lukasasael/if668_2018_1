@@ -1,0 +1,70 @@
+\documentclass[a4paper]{article}
+
+%% Language and font encodings
+\usepackage[brazil]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{booktabs}
+
+%% Sets page size and margins
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+%% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+\title{IF699 - Aprendizagem de Máquina}
+\author{Anderson César de Carvalho Silva}
+
+\begin{document}
+\maketitle
+
+\section{Introdução}
+
+A disciplina possui o foco principal de estudar métodos e algoritmos que obtém conhecimento a partir da análise de bases de dados. Sendo que, o "\textit{Machine Learning}" não é apenas um problema de banco de dados; é também uma parte da inteligência artificial. Para ser inteligente, um sistema que está em um ambiente de mudança deve ter a capacidade de aprender, conforme bem explicado e mostrado nos livros "\textit{Introduction to Machine Learning}", do autor Ethem Alpaydin,\cite{book:alpaydin} e "Machine Lerning", de Tom Mitchell,\cite{book:mitchell}. Por consequência, a aprendizagem de máquina possui diversas aplicabilidades, como por exemplo, resolução de problemas relacionados a visão, reconhecimento de fala e robótica.
+
+\section{Relevância}
+Devido a suas inúmeras implicações, a disciplina IF699 é de grande importância para o perfil curricular do curso de Ciência da Computação na UFPE. Uma vez que, quando você consegue identificar padrões nos dados de forma automatizada abre-se um novo mundo de oportunidades, muitas delas explanadas no livro "\textit{Learning From Data}", de Yaser S. Abu-Mostafa,\cite{book:mostafa}, sendo elas desde o cruzamento eficiente de dados, à possibilitar a navegação inteligente (fato já realizado pelo Google Maps,\ref{fig:gm}). Sua importância é tamanha que, pouco tempo atrás, a \textit{Harvest Business Review} chamou a profissão dos desenvolvedores de Machine Learning de "A profissão mais sexy do século 21",\cite{url:hbr}.
+\begin{itemize}
+  \item Pontos Positivos da Disciplina:
+  \begin{enumerate}
+     \item Alto Grau de Aplicabilidade Desse Aprendizado.
+     \item Grande Demanda do Mercado por Programadores com esse conhecimento.
+   \end{enumerate}
+\end{itemize}
+A disciplina possui uma carga horária total de 75 horas, sendo 45 teóricas e 30 práticas, com cerca de 10 tópicos abordados, evidenciados no site da disciplina,\cite{url:if699}. É uma grande oportunidade para aqueles que querem aprender mais sobre a área.
+\begin{figure}
+\centering
+\includegraphics[width=0.3\textwidth]{googleMaps.png}
+\caption{\label{fig:gm} O Google Maps utiliza o Machine Learning para considerar todas as variáveis, incluindo congestionamentos, para traçar os melhores caminhos para cada motorista. Além de utilizar dados de todos os veículos, o machine learning também faz análises preditivas a partir de padrões identificados neles.}
+%% Licença da Imagem: Dominio Publico 
+%% Site: https://commons.wikimedia.org/wiki/File:GoogleMaps_logo.svg
+%% Autor: Google inc.
+\end{figure}
+
+\section{Relação com Outras Disciplinas}
+A disciplina de Aprendizagem de  Máquina possui algumas relações com outras disciplinas disponíveis na grade de Ciência da Computação, como mostrado na tabela a seguir:
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[h]
+\centering
+\caption{Relação com Outras Disciplnas}
+\label{my-label}
+\begin{tabular}{@{}|l|l|lll@{}}
+\cmidrule(r){1-2}
+\multicolumn{1}{|c|}{Disciplinas Relacionadas:} & \multicolumn{1}{c|}{Porque São Relacionadas à IF699:}                                                                                                                                                                                                                                                                                                  &  &  &  \\ \cmidrule(r){1-2}
+IF672 - Algoritimos e Estruturas de Dados       & \begin{tabular}[c]{@{}l@{}}A Disciplina IF672, no 2° Período, Introduz o \\ Conhecimento Básico Necessário em\\  Armazenamento e Organização de Dados, \\ sendo assim de grande importância para \\ Gerenciamento de Dados e Informação e por \\ Consequência para Aprendizagem de Máquina.\end{tabular}                                                &  &  &  \\ \cmidrule(r){1-2}
+IF685 - Gerenciamento de Dados e Informação     & \begin{tabular}[c]{@{}l@{}}A IF685, Presente no 4° Período, é um \\ Pré-Requisito Direto da IF699 Visto que \\ Apresenta o Conceito de Modelagem de \\ Bancos de Dados e a Linguagem de Pesquisa \\ Declarativa Padrão para Banco de Dados \\ Relacional (SQL). Assuntos de Suma Importância \\ quando tem-se o Desejo de Analisar Dados.\end{tabular} &  &  &  \\ \cmidrule(r){1-2}
+IF684 - Sistemas Inteligentes                   & \begin{tabular}[c]{@{}l@{}}A Disciplina de Sistemas Inteligentes, Também \\ no 4° Período, Estabelece os Primeiros Conceitos \\ do que é Aprendizagem de Máquina e o \\ Conhecimento de Sistemas Multiagentes \\ ( Sub-Área de Inteligência Artificial ),os quais \\ Podem Ajudar Bastante na IF699.\end{tabular}                                      &  &  &  \\ \cmidrule(r){1-2}
+IF703 - Agentes Autônomos                       & \begin{tabular}[c]{@{}l@{}}No Caso de Agentes Autônomos a disciplina \\ IF699 Traz Conhecimentos Importantes para \\ o Desenvolvimento de Inteligência Artificial, \\ que é o objetivo central da IF703.\end{tabular}                                                                                                                                  &  &  &  \\ \cmidrule(r){1-2}
+\end{tabular}
+\end{table}
+
+
+\bibliographystyle{alpha}
+\bibliography{sample}
+
+\end{document}
