@@ -1,0 +1,94 @@
+\documentclass[10pt,twoside,a4paper]{article}
+
+%% Language and font encodings
+\usepackage[brazil]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+
+%% Sets page size and margins
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+%% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+\title{IF708 - Programação Funcional}
+\author{Bruno Cezario}
+
+\begin{document}
+\maketitle 
+
+\begin{abstract}
+Este documento visa apresentar a disciplina de Programação Funcional, esta que faz parte do quadro de disciplinas eletivas para o curso de Ciência da Computação do Centro de Informática da UFPE .
+\end{abstract}
+
+\section{Introdução}
+
+A disciplina de Programação Funcional é uma opção para formação continuada em Linguagens de Programação, fazendo parte do quadro de disciplinas eletivas do curso de Ciência da Computação da Universidade Federal de Pernambuco. Visando apresentar paradigmas alternativos ao imperativo, nessa disciplina é estudado o paradigma da prgramação funcional. São principalmente tópicos como programação com funções, programação com listas, recursão, prova de propriedades sobre programas, provas por indução, inferência de tipos, tipos de dados algébricos, árvores, avaliação estrita e preguiçosa. Estes tópicos em sua maioria são vistos de forma introdutória na disciplina de Paradigmas de Linguagens de Programação, esta que faz parte do currículo obrigatório, sendo aprofundados e estudados tópicos mais avançados nesse componente curricular, tais como programação paralela usando linguagens funcionais e outras linguagens funcionais além de Haskell, no entando sendo esta a mais utilizada durante a disciplina, tendo como ambiente o interpretador Hugs. Visa capacitar o discente a compreender de forma mais apurada o significado das diversas construções utilizadas em linguagens de programação modernas e apresentar um olhar crítico sobre as características das mesmas. Através desse olhar crítico, deverá ser capaz de, dado um conjunto de problemas, escolher, entre as várias linguagens existentes, as mais eficazes para resolver determinados problemas. É importante frisar, porém, que o curso não visa ensinar uma linguagem específica, embora tenha uma ênfase particular na linguagem Haskell como um exemplo do paradigma funcional, e em Java como um exemplo do paradigma concorrente.
+
+
+\begin{figure} [H]
+\centering
+\includegraphics[width=0.3\textwidth]{haskell.jpg}
+\caption{\label{fig:haskell}HASKELL: Linguagem de Programação utilizada na disciplina.}
+\end{figure}
+
+\section{Relevância} 
+
+Focada na linha de formação em programação, esta disciplina eletiva demonstra ser de fortemente indicada ao discente que busca aperfeiçoar seu conhecimento no que diz respeito ao paradigma de programação funcional. O principal objetivo de uma Linguagem de Programação Funcional (LPF) é o de elevar a produtividade, o que facilita manutenção, reuso e verificação. É relevante estudar LPF porque neste ambiente acadêmico é apresentada ao discente uma visão clara de conceitos fundamentais da computação. Além disso o mercado tem demonstrado interesse crescente por LPF, este sendo amplificado por plugins para linguagens imperativas com aplicação para sistemas paralelos. Um dos pontos mais relevantes em diversos aspectos é que ao fim da disciplina é o discente estará capacitado de conhecimento prático, de um senso crítico a respeito do conteúdo abordado.
+
+
+\section{Relação com outras disciplinas}
+
+Fortemente atrelada ao tronco comum do curso, essa disciplina relaciona-se com outras seja aprofundando conceitos vistos anteriormente apenas de forma introdutória ou dando continuidade no ramo do conhecimento ao qual faz parte. Abaixo é apresentada a correlação com algumas disciplinas que também compõem o curriculo do curso:
+
+								
+
+
+% ######## init table ########
+\begin{table}[h]
+ \centering
+% distancia entre a linha e o texto
+ {\renewcommand\arraystretch{1.25}
+ \caption{Programação Funcional vs outras disciplinas}
+ \begin{tabular}{ l l }
+  \cline{1-1}\cline{2-2}  
+
+
+  \\  
+  \cline{1-1}\cline{2-2}  
+    \multicolumn{1}{|p{3.850cm}|}{\textbf{Disciplina} \centering } &
+    \multicolumn{1}{p{4.217cm}|}{\textbf{Relação} \centering }
+  \\  
+  \cline{1-1}\cline{2-2}  
+    \multicolumn{1}{|p{3.850cm}|}{IF669 - Introdução a Programação} &
+    \multicolumn{1}{p{4.217cm}|}{Programação com funções, listas e recursão são alguns dos tópicos que fazem parte da ementa de ambas as disciplinas}
+  \\  
+  \cline{1-1}\cline{2-2}  
+    \multicolumn{1}{|p{3.850cm}|}{IF670 - Matemática Discreta} &
+    \multicolumn{1}{p{4.217cm}|}{Provas por indução, tipos de dados algébricos e árvores são alguns dos assuntos que correlacionam essas disciplinas}
+  \\  
+  \cline{1-1}\cline{2-2}  
+    \multicolumn{1}{|p{3.850cm}|}{IF686 - Paradigmas de Linguagens Computacionais} &
+    \multicolumn{1}{p{4.217cm}|}{Aborda a maioria dos principais tópicos vistos em Programação Funcional no entanto de forma introdutória}
+  \\  
+  \hline
+
+ \end{tabular} }
+\end{table}
+
+			
+
+
+
+\bibliographystyle{plain}
+\bibliography{brsc}
+\cite{thompson2011haskell}
+\cite{hudak2000haskell}
+\cite{richard1998bird}
+\cite{swaine2008s}
+\cite{jones2000composing}
+\end{document}
