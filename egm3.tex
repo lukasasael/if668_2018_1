@@ -1,0 +1,75 @@
+\documentclass[a4paper]{article}
+
+%% Language and font encodings
+\usepackage[brazil]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+
+%% Sets page size and margins
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+%% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{verbatim}
+
+\title{IF673 -LÓGICA PARA COMPUTACAO}
+\author{Eduardo Guimarães Medeiros}
+
+\begin{document}
+\maketitle
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\textwidth]{George_Boole.jpg}
+\caption{\label{fig:George_Boole} Imagem de George Boole, pai da lógica booleana, a qual é muito importante para a cadeira de lógica para computação.}
+\begin{comment}
+Link da imagem junto a licença:
+https://commons.wikimedia.org/wiki/File:George_Boole.jpg ----- Imagem de Boole.8
+Licença:
+Public Domain.
+\end{comment}
+
+\end{figure}
+\section{Introdução}
+A disciplina de lógica para computação tem como foco principal uma introdução às técnicas de ráciocinio dedutivo. Há também o uso de ferramentas da lógica matemática, lógica proposicional, lógica de predicados, teoria dos conjuntos e a famosa álgebra booleana\cite{1}\cite{Language}. Outrossim, a disciplina é de grande importância, pois, auxilia o raciocínio em conceitos básicos e verificação formal de programas.A álgebra booleana, criada por George Boole(figura [1]), é muito útil pois a partir dela foi possível construir circuitos eletrônicos transferindo dois estados lógicos, SIM e NÃO.  Em suma, é a união da lógica matemática à computação, tendo como base a matemática discreta. 
+
+\section{Relevância}
+Os programas de computador são escritos em linguagens simbólicas especiais, por exemplo, Fortran, C ++, Lisp, Prolog. Essas linguagens contêm características de simbolismo lógico. Através de tais conexões, o estudo da lógica pode ajudar na concepção de programas. Mas a ciência da computação não é apenas programação. Inclui a análise lógica e matemática de programas\cite{Model}. Com essas análises, pode-se provar a exatidão dos procedimentos e estimar o número de etapas necessárias para executar um programa especificado. A lógica moderna é usada em tal trabalho e é incorporada em programas que ajudam a construir provas de tais resultados. A lógica também tem um papel no design de novas linguagens de programação e é necessária para o trabalho em inteligência artificial e ciência cognitiva. 
+
+\subsection{Pontos Positivos}
+\begin{enumerate}
+\item Ajuda na formação de algoritmos.
+\item Desenvolver e aprofundar  a habilidade de raciocinar abstratamente. 
+\item Proporcionar ao aluno conteúdo teórico que serve de base para a área de IA.
+\end{enumerate}
+\subsection{Pontos Negativos}
+\begin{enumerate}
+\item Falta de motivação de alguns alunos com assuntos teóricos.
+\end{enumerate}
+\section{Relação com outras disciplinas}
+Nesta seção, você, caro leitor, irá ver a relação que a disciplina de lógica estabelece com outras disciplinas do curso de Ciência da Computação.\cite{Perfil_Curricular}
+
+
+\begin{table}[h]
+\centering
+\caption{Relação entre disciplinas}
+\label{my-label}
+\begin{tabular}{cl}
+\hline
+\multicolumn{1}{|c|}{\textbf{Disciplina}}                                                               & \multicolumn{1}{c|}{\textbf{Relação da disciplina com a lógica para computação}}                                                                                                                                                                                                                                                                                                                                                              \\ \hline
+\multicolumn{1}{|c|}{IF670-Matematica Discreta}                                                         & \multicolumn{1}{l|}{\textit{\begin{tabular}[c]{@{}l@{}}É de grande importância, pois serve como base para a \\ lógica para computação, tanto que a lógica para computação\\  é considerada a continuação de matemática discreta.\end{tabular}}}                                                                                                                                                                                               \\ \hline
+\multicolumn{1}{|c|}{IF689-Informática Teórica}                                                         & \multicolumn{1}{l|}{\textit{\begin{tabular}[c]{@{}l@{}}Visto que a informática teórica estuda problemas computacionais\\  e classes de linguagens que podem ser ser reconhecidas por modelos \\ computacionais simbólicos, faz-se necessário então uma base de lógica\\ em linguagens simbólicas para compreensão de tal. Ademais, \\ a informática teórica procura computar  vários problemas e \\ para isso usa-se a lógica.\end{tabular}}} \\ \hline
+\multicolumn{1}{|c|}{IF675-Sistemas Digitais}                                                           & \multicolumn{1}{l|}{\textit{\begin{tabular}[c]{@{}l@{}}A disciplina de sistemas digitais utiliza a álgebra booleana, a qual \\ é abordada mais afundo em lógica. É de extrema importância ter \\ domínio da lógica, pois, a disciplina de sistemas digitais visa formar \\ circuitos lógicos digitais e sequenciais.\end{tabular}}}                                                                                                           \\ \hline
+\multicolumn{1}{|c|}{\begin{tabular}[c]{@{}c@{}}IF682-Engenharia de Software\\ e Sistemas\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}A disciplina de lógica é um dos pré-requisitos para engenharia de \\ software, pois, como já mencionado, é necessário grande domínio\\ da lógica para a construção de sistemas e agora também softwares.\end{tabular}}                                                                                                                                                                         \\ \hline
+                            
+\end{tabular}
+\end{table}
+
+
+
+\bibliographystyle{ieeetr}
+\bibliography{egm3}
+
+\end{document}
