@@ -1,0 +1,81 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{float}
+
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=orange]{hyperref}
+\title{IF679 - Informática e Sociedade}
+\author{Autora - Julia de La Vega}
+
+\begin{document}
+\maketitle
+
+\section{Introdução}
+
+
+A disciplina de Informática e Sociedade faz parte da grade curricular dos cursos do Centro de Informática (CIn). Essa disciplina tem como foco a análise e avaliação nos processos de adoção das tecnologias de comunicação e informação dentro da sociedade, como por exemplo, em ambientes de aprendizagem ou trabalho.
+
+Essa análise torna-se importante, uma vez que não são conhecidas as proporções que podem alterar a sociedade ao incluir tecnologia nas vidas das pessoas. Da mesma forma que a tecnologia é algo relativamente recente, as pesquisas sobre o que ela resulta também são novas, muitas vezes com poucos dados.
+Dessa maneira, surgiu a necessidade de estudar quais podem ser os impactos da tecnologia no meio social, e de que maneira elas vão afetar a sociedade (pois tudo que entra na sociedade a altera de alguma forma).
+
+Asim, a abordagem da disciplina pode variar muito de acordo com o que está ocorrendo com o mundo, pois se houvessem tópicos fixos, rapidamente os alunos estudariam assuntos completamente desatualizados. O real foco é em como propor soluções, e em como gerenciar o mundo da informação de acordo com as suas mudanças, de forma que não prejudique o meio social.
+
+Essa disciplina se insere em todas as grandes áreas da computação, uma vez que independente do que faça, a pessoa que mexe com tecnologia deve sempre estar ciente de que qualquer inovação vai alterar a sociedade, e cabe a ela analisar até que ponto essa alteração será positiva para o mundo. Também se insere em todas as áreas pois o estudo relacionado de informática + sociedade pode ser trazido de diversas maneiras, de várias formas interdisciplinares que proporcionem uma discussão acerca do tema.
+
+\section{Revelância}
+
+A importância da disciplina é clara a partir do momento que descrevemos uma visão geral sobre ela. A análise da sociedade e dos impactos que podem ser criados é a principal motivação do estudo de Informática e Sociedade.
+
+Contudo, é importante observar que, assim como em todas as outras disciplinas, ela também tem seus pontos negativos e positivos, que serão descritos abaixo.
+
+\begin{itemize}
+\item Pontos positivos:
+\subitem 
+- Direcionamento na avaliação dos processos políticos-sociais e técnicos;
+\subitem 
+- Desenvolvimento de uma forma de pensar mais humanizada e consciente do meio social em que o aluno vive;
+\subitem
+- Desconstrução da visão que muitos alunos possuem de que a tecnologia só é aplicável a processos já bem desenvolvidos e com grande poder monetário;
+\item Pontos negativos:
+\subitem 
+- Nunca haverá uma homogenização da forma como será estudada a disciplina;
+\subitem 
+- Possíveis cortes de tópicos que, mesmo desatualizados, são importantes na formação de alguém que irá lidar com tecnologia;
+\subitem 
+- Desinteresse do aluno por ser uma disciplina teórica;
+\subitem
+- Não ser pré requisito de nenhuma outra cadeira;
+\end{itemize}
+
+\section{Relacionamento com Outras Cadeiras}
+\begin{table} [h]                                                                               \centering 
+\begin{tabular}{l|p{9.0cm}|} \hline
+Outra Cadeira & Relação entre elas \\\hline
+IF668 - Introdução a Computação & É a porta de entrada para o mundo da computação, e assim, apresenta ao aluno todas as áreas da computação e a importância social delas. \\\hline
+IF684 - Sistemas inteligentes & Necessita de um conhecimento teórico acerca do impacto social que tal tecnologia possui, logo, necessidade previamente do estudo de Informática e Sociedade. \\\hline
+IF690 - História e Futuro da Computação & São disciplinas teóricas que lidam com a computação e sua relação com o mundo. \\\hline
+IF779 - Nova Economia e Nova Sociedade & Mais uma cadeira que estuda sobre o impacto das novas tecnologias no mundo e na sociedade, e nessa cadeira, com um foco mais aprofundado no Brasil. \\\hline
+
+\end{tabular}
+\end{table}
+
+\section{Referências}
+
+
+Por ser uma cadeira que muda muito o tópico de estudo de acordo com as evoluções tecnológicas, Informática e Sociedade não tem uma lista de referências como material de estudo. 
+
+Em suas aulas, são vistos filmes e/ou documentários atuais acerca do assunto que é debatido em sala. A seguir, irei incluir alguns slides utilizados em sala de aula.
+
+- \href{https://docs.google.com/presentation/d/1C6xxeXDnMxKInZf41q0Dsd2Wrc8PTj_dVS77n_5rAFY/edit#slide=id.p3}{Aula Introdutória} : aula inicial da cadeira de InfoSoc no período de 2018.1;
+
+-
+\href{https://docs.google.com/presentation/d/1_PpB5PZAMfCxfmxQAxqOA75OkUhq0cG6D9m2JkkNlGk/edit#slide=id.p3}{Aula 2} : slide sobre o impacto das tecnologias na sociedade;
+
+
+\end{document}
