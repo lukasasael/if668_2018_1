@@ -10,69 +10,69 @@
 \usepackage{graphicx}
 \usepackage[colorinlistoftodos]{todonotes}
 \usepackage[colorlinks=true, allcolors=orange]{hyperref}
-\title{IF679 - Inform·tica e Sociedade}
-\author{Autora - Julia de La Vega}
+\title{IF679 - Inform√°tica e Sociedade}
+\author{Julia de La Vega}
 
 \begin{document}
 \maketitle
 
-\section{IntroduÁ„o}
+\section{Introdu√ß√£o}
 
 
-A disciplina de Inform·tica e Sociedade faz parte da grade curricular dos cursos do Centro de Inform·tica (CIn). Essa disciplina tem como foco a an·lise e avaliaÁ„o nos processos de adoÁ„o das tecnologias de comunicaÁ„o e informaÁ„o dentro da sociedade, como por exemplo, em ambientes de aprendizagem ou trabalho.
+A disciplina de Inform√°tica e Sociedade faz parte da grade curricular dos cursos do Centro de Inform√°tica (CIn). Essa disciplina tem como foco a an√°lise e avalia√ß√£o nos processos de ado√ß√£o das tecnologias de comunica√ß√£o e informa√ß√£o dentro da sociedade, como por exemplo, em ambientes de aprendizagem ou trabalho.
 
-Essa an·lise torna-se importante, uma vez que n„o s„o conhecidas as proporÁıes que podem alterar a sociedade ao incluir tecnologia nas vidas das pessoas. Da mesma forma que a tecnologia È algo relativamente recente, as pesquisas sobre o que ela resulta tambÈm s„o novas, muitas vezes com poucos dados.
-Dessa maneira, surgiu a necessidade de estudar quais podem ser os impactos da tecnologia no meio social, e de que maneira elas v„o afetar a sociedade (pois tudo que entra na sociedade a altera de alguma forma).
+Essa an√°lise torna-se importante, uma vez que n√£o s√£o conhecidas as propor√ß√µes que podem alterar a sociedade ao incluir tecnologia nas vidas das pessoas. Da mesma forma que a tecnologia √© algo relativamente recente, as pesquisas sobre o que ela resulta tamb√©m s√£o novas, muitas vezes com poucos dados.
+Dessa maneira, surgiu a necessidade de estudar quais podem ser os impactos da tecnologia no meio social, e de que maneira elas v√£o afetar a sociedade (pois tudo que entra na sociedade a altera de alguma forma).
 
-Asim, a abordagem da disciplina pode variar muito de acordo com o que est· ocorrendo com o mundo, pois se houvessem tÛpicos fixos, rapidamente os alunos estudariam assuntos completamente desatualizados. O real foco È em como propor soluÁıes, e em como gerenciar o mundo da informaÁ„o de acordo com as suas mudanÁas, de forma que n„o prejudique o meio social.
+Asim, a abordagem da disciplina pode variar muito de acordo com o que est√° ocorrendo com o mundo, pois se houvessem t√≥picos fixos, rapidamente os alunos estudariam assuntos completamente desatualizados. O real foco √© em como propor solu√ß√µes, e em como gerenciar o mundo da informa√ß√£o de acordo com as suas mudan√ßas, de forma que n√£o prejudique o meio social.
 
-Essa disciplina se insere em todas as grandes ·reas da computaÁ„o, uma vez que independente do que faÁa, a pessoa que mexe com tecnologia deve sempre estar ciente de que qualquer inovaÁ„o vai alterar a sociedade, e cabe a ela analisar atÈ que ponto essa alteraÁ„o ser· positiva para o mundo. TambÈm se insere em todas as ·reas pois o estudo relacionado de inform·tica + sociedade pode ser trazido de diversas maneiras, de v·rias formas interdisciplinares que proporcionem uma discuss„o acerca do tema.
+Essa disciplina se insere em todas as grandes √°reas da computa√ß√£o, uma vez que independente do que fa√ßa, a pessoa que mexe com tecnologia deve sempre estar ciente de que qualquer inova√ß√£o vai alterar a sociedade, e cabe a ela analisar at√© que ponto essa altera√ß√£o ser√° positiva para o mundo. Tamb√©m se insere em todas as √°reas pois o estudo relacionado de inform√°tica + sociedade pode ser trazido de diversas maneiras, de v√°rias formas interdisciplinares que proporcionem uma discuss√£o acerca do tema.
 
-\section{Revel‚ncia}
+\section{Revel√¢ncia}
 
-A import‚ncia da disciplina È clara a partir do momento que descrevemos uma vis„o geral sobre ela. A an·lise da sociedade e dos impactos que podem ser criados È a principal motivaÁ„o do estudo de Inform·tica e Sociedade.
+A import√¢ncia da disciplina √© clara a partir do momento que descrevemos uma vis√£o geral sobre ela. A an√°lise da sociedade e dos impactos que podem ser criados √© a principal motiva√ß√£o do estudo de Inform√°tica e Sociedade.
 
-Contudo, È importante observar que, assim como em todas as outras disciplinas, ela tambÈm tem seus pontos negativos e positivos, que ser„o descritos abaixo.
+Contudo, √© importante observar que, assim como em todas as outras disciplinas, ela tamb√©m tem seus pontos negativos e positivos, que ser√£o descritos abaixo.
 
 \begin{itemize}
 \item Pontos positivos:
 \subitem 
-- Direcionamento na avaliaÁ„o dos processos polÌticos-sociais e tÈcnicos;
+- Direcionamento na avalia√ß√£o dos processos pol√≠ticos-sociais e t√©cnicos;
 \subitem 
 - Desenvolvimento de uma forma de pensar mais humanizada e consciente do meio social em que o aluno vive;
 \subitem
-- DesconstruÁ„o da vis„o que muitos alunos possuem de que a tecnologia sÛ È aplic·vel a processos j· bem desenvolvidos e com grande poder monet·rio;
+- Desconstru√ß√£o da vis√£o que muitos alunos possuem de que a tecnologia s√≥ √© aplic√°vel a processos j√° bem desenvolvidos e com grande poder monet√°rio;
 \item Pontos negativos:
 \subitem 
-- Nunca haver· uma homogenizaÁ„o da forma como ser· estudada a disciplina;
+- Nunca haver√° uma homogeniza√ß√£o da forma como ser√° estudada a disciplina;
 \subitem 
-- PossÌveis cortes de tÛpicos que, mesmo desatualizados, s„o importantes na formaÁ„o de alguÈm que ir· lidar com tecnologia;
+- Poss√≠veis cortes de t√≥picos que, mesmo desatualizados, s√£o importantes na forma√ß√£o de algu√©m que ir√° lidar com tecnologia;
 \subitem 
-- Desinteresse do aluno por ser uma disciplina teÛrica;
+- Desinteresse do aluno por ser uma disciplina te√≥rica;
 \subitem
-- N„o ser prÈ requisito de nenhuma outra cadeira;
+- N√£o ser pr√© requisito de nenhuma outra cadeira;
 \end{itemize}
 
 \section{Relacionamento com Outras Cadeiras}
 \begin{table} [h]                                                                               \centering 
 \begin{tabular}{l|p{9.0cm}|} \hline
-Outra Cadeira & RelaÁ„o entre elas \\\hline
-IF668 - IntroduÁ„o a ComputaÁ„o & … a porta de entrada para o mundo da computaÁ„o, e assim, apresenta ao aluno todas as ·reas da computaÁ„o e a import‚ncia social delas. \\\hline
-IF684 - Sistemas inteligentes & Necessita de um conhecimento teÛrico acerca do impacto social que tal tecnologia possui, logo, necessidade previamente do estudo de Inform·tica e Sociedade. \\\hline
-IF690 - HistÛria e Futuro da ComputaÁ„o & S„o disciplinas teÛricas que lidam com a computaÁ„o e sua relaÁ„o com o mundo. \\\hline
+Outra Cadeira & Rela√ß√£o entre elas \\\hline
+IF668 - Introdu√ß√£o a Computa√ß√£o & √â a porta de entrada para o mundo da computa√ß√£o, e assim, apresenta ao aluno todas as √°reas da computa√ß√£o e a import√¢ncia social delas. \\\hline
+IF684 - Sistemas inteligentes & Necessita de um conhecimento te√≥rico acerca do impacto social que tal tecnologia possui, logo, necessidade previamente do estudo de Inform√°tica e Sociedade. \\\hline
+IF690 - Hist√≥ria e Futuro da Computa√ß√£o & S√£o disciplinas te√≥ricas que lidam com a computa√ß√£o e sua rela√ß√£o com o mundo. \\\hline
 IF779 - Nova Economia e Nova Sociedade & Mais uma cadeira que estuda sobre o impacto das novas tecnologias no mundo e na sociedade, e nessa cadeira, com um foco mais aprofundado no Brasil. \\\hline
 
 \end{tabular}
 \end{table}
 
-\section{ReferÍncias}
+\section{Refer√™ncias}
 
 
-Por ser uma cadeira que muda muito o tÛpico de estudo de acordo com as evoluÁıes tecnolÛgicas, Inform·tica e Sociedade n„o tem uma lista de referÍncias como material de estudo. 
+Por ser uma cadeira que muda muito o t√≥pico de estudo de acordo com as evolu√ß√µes tecnol√≥gicas, Inform√°tica e Sociedade n√£o tem uma lista de refer√™ncias como material de estudo. 
 
-Em suas aulas, s„o vistos filmes e/ou document·rios atuais acerca do assunto que È debatido em sala. A seguir, irei incluir alguns slides utilizados em sala de aula.
+Em suas aulas, s√£o vistos filmes e/ou document√°rios atuais acerca do assunto que √© debatido em sala. A seguir, irei incluir alguns slides utilizados em sala de aula.
 
-- \href{https://docs.google.com/presentation/d/1C6xxeXDnMxKInZf41q0Dsd2Wrc8PTj_dVS77n_5rAFY/edit#slide=id.p3}{Aula IntrodutÛria} : aula inicial da cadeira de InfoSoc no perÌodo de 2018.1;
+- \href{https://docs.google.com/presentation/d/1C6xxeXDnMxKInZf41q0Dsd2Wrc8PTj_dVS77n_5rAFY/edit#slide=id.p3}{Aula Introdut√≥ria} : aula inicial da cadeira de InfoSoc no per√≠odo de 2018.1;
 
 -
 \href{https://docs.google.com/presentation/d/1_PpB5PZAMfCxfmxQAxqOA75OkUhq0cG6D9m2JkkNlGk/edit#slide=id.p3}{Aula 2} : slide sobre o impacto das tecnologias na sociedade;
