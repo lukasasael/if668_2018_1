@@ -1,0 +1,66 @@
+\documentclass[a4paper]{article}
+
+%% Language and font encodings
+\usepackage[brazil]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+
+%% Sets page size and margins
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+%% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+
+\title{IF689 - Informática Teórica}
+\author{Aline Maria Tenório Gouveia}
+
+\begin{document}
+\maketitle
+
+\section{Introdução}
+	É disciplina obrigatória dos cursos de graduação de Ciência da Computação (4º período) e Engenharia da Computação (6º período), atualmente ministrada por Ruy Queiroz e Paulo Fonseca, respectivamente.\\
+	\indent Sua ementa aborda uma introdução geral à Informática Teórica, Análise de Algoritmos, Complexidade Computacional e Computabilidade. Assim, inserida na área de “Teoria da Computação”, são estudados seus conceitos, além de modelos de computação (modelos formais de algoritmos), a exemplo dos já existentes autômatos finitos, autômatos com pilha e as máquinas de Turing (\ref{fig:maquinasT}), sendo este último um tópico importantíssimo para estruturação da disciplina e história da própria Computação. Toda esta parte teórica leva à definição formal de máquinas e algoritmos, como também ao estudo dos conceitos das linguagens formais, suas gramáticas e das máquinas que as reconhecem - as linguagens são o que normalmente nos referimos por linguagens de programação.\\ 
+    \indent Usa de bibliografia básica \cite{1} e de bibliografia suplementar \cite{2} \cite{3} \cite{4} \cite{5}.
+    
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\textwidth]{maquinaDeTuring.png}
+\caption{\label{fig:maquinasT}Representação de uma Máquina de Turing}
+\end{figure}
+% Imagem 1; Domínio Público
+% https://pt.wikipedia.org/wiki/M%C3%A1quina_de_Turing#/media/File:Turing_Machine.png
+%
+
+\section{Relevância}
+	Os conceitos tratados consistem, de modo geral, em formalizar e entender como a computação funciona, tomando por base alguns tipos de autômatos, estudados durante a ministração da disciplina. É possível analisar algoritmos, verificar desempenhos e também determinar se eles são possíveis ou não, o que é importantíssimo no sentido de que quebra uma ideia que existiu por muito tempo: de que os computadores resolveriam todo e qualquer tipo de problemas. As ideias desenvolvidas são aproveitadas nas áreas de criptografia e compiladores.\\
+	\indent Nesse sentido, como Informática Teórica trata de problemas da Computação, analisando seus aspectos, é possivel partir para a análise  de quais os limites e possibilidades da área.   
+    
+%\begin{itemize}
+%\item Like this,
+%\item and like this.
+%\end{itemize}
+    
+\section{Relação com Outras Disciplinas}
+Informática Teórica relaciona-se com outras disciplinas, a exemplo das eletivas abaixo.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|p{7.0cm}|p{9.0cm}|}
+\hline
+IF774 -  Complexidade Descritiva & Esta cadeira adentra um dos conteúdos de Informática Teórica (complexidade), partindo para uma maneira de enxergar o tópico além da tradicional.   \\ \hline
+IF772 - Lambda Cálculo Teoria Tipos & A partir da teoria de Church-Turing, existe uma correlação entre o modelo de Lambda Calculo e as Máquinas de Turing, estas últimas estudadas mais aprofundamente no fim da disciplina de Teórica. Além disso, é necessário o estudo inicial de modelos para entendimento desta eletiva. \\ \hline
+IF778 - Seminário em Informática Teórica & Aborda diversos temas de computação e leva os alunos a pensarem diversos locais nos quais se insere a Informática Teórica. \\ \hline
+IF771 - Teoria da Prova | IF769 - Teoria da Recursão | IF770 - Teoria dos Modelos & Estas eletivas são disciplinas teóricas que necessitam de toda a base inicial em computação para seu desenvolvimento.  \\ \hline
+IF776 - Tópicos Avançados em Informática Teórica & É aprofundamento em Informática Teórica.  \\ \hline
+\end{tabular}
+\caption{Eletivas que têm IF689 como pré-requisito}
+\end{table}
+
+\bibliographystyle{alpha}
+\bibliography{amtg}
+
+\end{document}
