@@ -1,0 +1,68 @@
+\documentclass[a4paper]{article}
+
+%% Language and font encodings
+\usepackage[brazil]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+
+%% Sets page size and margins
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+%% Useful packages
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+\title{IF675 - Sistemas Digitais}
+\author{Maria Clara Dionisio Amaral Gois}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+A cadeira de Sistemas Digitais, lecionada pelo professor Manoel Eusébio de Lima na Universidade Federal de Pernambuco, apresenta carga horária de 75 horas e visa ensinar aos alunos conceitos sobre circuitos lógicos digitais, abrangendo desde sistemas poucos complexos até os mais complexos. Ademais, busca ensinar aos alunos sobre a eficiência da informação digital na manipulação de técnicas para o processamento da informação.
+\end{abstract}
+
+\section*{Introdução}
+A cadeira de Sistemas Digitais dada no CIn(Centro de Informática), na Universidade Federal de Pernambuco, intenta ensinar aos alunos dos cursos de Ciências da Computação e de Engenharia de Computação no segundo período de curso como entender o funcionamento de computadores digitais, como desenvolver projetos de “circuitos integrados” voltados para Embedded systems(Sistemas embarcados) e como utilizar técnicas modernas que permitam desenvolver sistemas de para o processamento de informações. Com a finalidade de elevar o aprendizado dos universitários, são propostos projetos e o uso de ferramentas de CAD(Computer Aided Design) e, ao longo do curso, os alunos podem utilizar esquemas ou HDLs(VHDL-Very High Speed Integrated Circuit Hardware description Language) para usarem a ferramenta do CAD.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.55\textwidth]{circuito_digital.png}
+\caption{\label{fig:Circuito} Exemplo de um sistema digital.}
+\end{figure}
+
+\section*{Relevância}
+A cadeira de Sistemas Digitais da UFPE(IF675) está no currículo do curso de Ciências da Computação, pois essa cadeira aborda sobre o que é um sistema digital, sua funcionalidade, como criar sistemas digitais e para que esses sistemas são utilizados. Essa cadeira é fundamental para os graduandos de Ciências da Computação e de Engenharia de Computação, pois os sistemas digitais são importantes para as áreas de tecnologia, já que são dispositivos programados para realizar uma funcionalidade a partir de determinado comando. Cada sistema digital utiliza valores discretos, descontínuos(0 e 1) e possui duas entradas, mas apenas uma saída e, a partir dos valores recebidos(0 ou 1), produz uma relação entre a entrada e a saída e, assim, consegue fazer com que uma função seja realizada. Ademais, os sistemas digitais apresentam vantagens como facilidade de serem projetados, devido ao uso de tensões "fortes" e "fracas", em vez de necessitar dos valores reais; facilidade armazenamento de informação; maior precisão e exatidão; menos ruídos, quando comparados aos sistemas analógicos; e uma elevada adequação à integração e, por isso, é importante importante ensinar Sistemas Digitais.\\
+
+\section*{Relação com outras disciplinas}
+\begin{table}[H]
+\caption{Cadeiras Relacionadas à cadeira de Sistemas Digitais}
+\centering
+\label{my-label}
+\begin{tabular}{|l|l|}
+\hline
+IF674- Infra-estrutura de Hardware        & \begin{tabular}[c]{@{}l@{}}Essa cadeira se relaciona com a cadeira de Sistemas  Digitais,\\ pois aborda sobre estruturas de um sistemas, circuitos e  estu-\\ do de  casos. Dessa forma, conceitos  utilizados em  Sistemas \\ Digitais ajudariam no entendimento dessa.\end{tabular}             \\ \hline
+IF732- Projetos de Sistemas Embutidos     & \begin{tabular}[c]{@{}l@{}}Essa cadeira se relaciona com a cadeira de Sistemas  Digitais,\\ pois aborda sobre sistemas hardware e a construção de dispo-\\ sitivos, logo, utiliza parte dos conhecimentos de Sistemas Di-\\ gitais.\end{tabular}                                                  \\ \hline
+IF729- Protótipos de Circuitos Integrados & \begin{tabular}[c]{@{}l@{}}Essa cadeira se relaciona com a cadeira de Sistemas  Digitais,\\ pois aborda sobre tecnologia para implementação de circuitos\\ integrados  e de alta integração. Assim,  os conceitos de Siste-\\ mas Digitais facilitaria o aprendizado dessa cadeira.\end{tabular} \\ \hline
+\end{tabular}
+\linebreak
+\linebreak
+\linebreak
+\end{table}
+
+
+
+\bibliographystyle{alpha}
+\bibliography{mcdag}
+
+\cite{ercegovac2000introduccao}
+\cite{booth1984introduction}
+\cite{taub1984circuitos}\\
+
+\url{https://commons.wikimedia.org/wiki/File:NAND_from_NOR.svg?\\uselang=pt}
+
+
+\end{document}
