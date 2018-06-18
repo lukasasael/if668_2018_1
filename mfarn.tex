@@ -1,0 +1,103 @@
+\documentclass[a4paper]{article}
+
+%% Language and font encodings
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+
+%% Sets page size and margins
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+%% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+\title{FI582 - Física para Computação}
+\author{Mateus Felipe do Nascimento}
+
+\begin{document}
+\maketitle
+
+\section{Introdução}
+
+A disciplina de Física para Computação tem por objetivo introduzir o aluno de Ciência da Computação aos conceitos básicos da física mecânica, elétrica, térmica e ondulatória. A parte da mecânica aborda cinemática, leis de newton e os conceitos de energia. Em física elétrica o conteúdo abrange desde cargas elétricas, passando por campo elétrico e potencial, até o estudo do magnetismo. Os assuntos de termologia vão de conceitos iniciais básicos como temperatura e calor, estudo dos gases até chegar à termodinâmica. A ondulatória se encarrega de fenomenos como difração, refração além de todos os eventos sonoros da acústica. Todo esse conhecimento pode ser aplicado na computação. Existem diversos softwares de modelagem física e matemática que são úteis na área acadêmica e para pesquisa. A simulação computacional de fenômenos físicos e naturais também exige conhecimento das leis iniciais da física. O desenvolvimento de código para esses programas deve ser feito por alguém com bastante conhecimento nas duas áreas.   
+
+\section{Relevância}
+
+As simulações computacionais dos fenômenos naturais da física permitem que esta se una à computação para que sejam utilizada em diversas áreas.Previsão de fenômenos meteorológicos, colisões de partículas subatômicas, astrofísica, engenharia, química e biologia, a física rege diversos fenômenos naturais, e a computação permite melhor estudar todos esses fenômenos. Além disso, a criação de jogos e outros programas que procuram simular a realidade com o máximo de fidelidade faz com que o conhecimento da física seja de extrema importância na programação desses softwares. 
+
+\subsection{Mecânica}
+
+Criação de jogos de realidade virtual que recriem situações que envolvam cinemática, leis de newton e outros conceitos da mecânica clássica.
+
+\begin{equation}
+\vec{V} =\lim_{t\to 0} \frac{\Delta \vec{r}}{\Delta \vec{t}}
+      = \frac{d \vec{r}}{d \vec{t}} \Rightarrow \int_{r_0}^{r} d \vec{r} = \int_{0}^{t} \vec{V}dt \Rightarrow \vec{r} = \vec{r_0} + \vec{V}t 
+\end{equation}
+
+\begin{center}
+Movimento Retilíneo Uniforme na Cinemática Vetorial
+\end{center}
+
+\subsection{Acústica}
+
+Softwares para produção e edição de áudio.
+
+\begin{equation}
+ L_w = 10 \log_{10} [\frac{P}{10^{-12}}] 
+\end{equation}
+
+\begin{center}
+Potência Sonora
+\end{center}
+
+\subsection{Termologia}
+
+Simulações de condições meteorológicas, modelagem de reatores térmicos, dissipação de calor de hardware.
+
+\begin{equation}
+ dE_{int} = dQ - dW 
+\end{equation}
+
+\begin{center}
+Primeira Lei da Termodinâmica
+\end{center}
+
+\subsection{Elétrica}
+
+Desde sistemas como Modkit,  ou Arduino que permitem programar componentes simples de hardware até projetos de robótica mais complexos, ou basicamente qualquer área de hardware que um programador queira se aprofundar exige aplicação de física elétrica.
+
+\begin{equation}
+\oint_S B \,dA = 0  
+\end{equation}
+
+\begin{center}
+Lei de Gauss do Magnetismo
+\end{center}
+
+\section{Relacionamento com outras cadeiras}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|p{9.0cm}|}\hline
+Cadeira & Como se relaciona
+\\\hline
+MA026 - Calculo Diferencial e Integral 1 & O cálculo diferencial e integral oferece as ferramentas matemáticas necessárias ao desenvolvimentos das equações da física estudadas em Física para computação.\\\hline
+IF754- Computaçao Musical Processamento de Som & Os conhecimentos básicos das características de ondas sonoras bem como amplitude e frequência, além de música e acústica, que são estudados na parte de Ondulatória são utilizados nessa disciplina. \\\hline
+FI006- Fisica Geral 1 & Estudo mais aprofundando da física mecânica, indo além dos conhecimentos de cinemática, leis de Newton e energia, indo até colisões, rotação e estática. \\\hline
+FI007 - Física Geral 2 & Aprofunda o estudo da termologia e ondulatória além de introduzir os conceitos das leis de Newton e Keppler aplicadas à gravitação universal. \\\hline
+IF794- Jogos Avançados & Utiliza os conhecimentos de física para realizar modelagem física na construção de jogos. \\\hline
+
+\end{tabular}
+\textit{\caption{\label{tab:widgets}Como a cadeira de Física para Computação se relaciona com outras cadeiras.}
+}\end{table}.
+
+\bibliographystyle{alpha}
+\bibliography{mfarn}
+\cite{resnickfundamentos}
+\cite{resnickfundamentoss}
+\cite{resnickfundamentosss}\\
+
+\end{document}
