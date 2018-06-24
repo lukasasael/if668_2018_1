@@ -1,0 +1,77 @@
+\documentclass[a4paper]{article}
+
+%% Language and font encodings
+\usepackage[brazil]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+
+%% Sets page size and margins
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+%% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{booktabs}
+\usepackage{adjustbox}
+
+\title{IF704 - Processamento de Linguagem Natural}
+\author{Wilton Ramos da Silva}
+
+\begin{document}
+\maketitle
+
+
+\section{Introdução}
+
+Processamento de Linguagem Natural (doravante PLN) é uma cadeira eletiva do curso de graduação em Ciência da Computação e se enquadra como uma subárea da Inteligência Artificial, a qual possibilita que máquinas e programas consigam processar e reproduzir informações linguísticas de linguagens não artificiais. Dessa forma, a disciplina trata não somente de questões relacionadas à Computação, mas apresenta uma interdisciplinaridade com a área de Linguística. Destarte, PLN explicita tópicos formais das línguas naturais, como sintaxe e semântica, e tópicos funcionais, como o discernimento de discursos, atrelando-os a assuntos de Estatística, álgebra e programação.
+%Não coloquei Álgebra Programação propositalmente, pois programação e álagebra não são considerados ciência como Computação, Linguística e Estatística.
+
+
+\begin{figure}[h]
+
+\centering
+\includegraphics[width=0.3\textwidth]{Syntatic_tree.png}
+\caption{\label{fig:Syntatic_tree}Exemplo de árvore sintática}
+\end{figure}
+
+\section{Relevância}
+
+O principal ponto que faz com que PLN integre o currículo do curso de Ciência da Computação está relacionado com a formação específica em Inteligência Artificial, visto que aquela é uma subárea de extrema importância desta por lidar com tarefas que envolvam a forma como nós nos comunicamos, que é, majoritariamente, por meio de linguagem natural. Outros dois motivos, não menos importantes, que torna essa disciplina relevante para a formação de cientistas da computação é a sua ampla aplicação e o crescente interesse do mercado sobre. Entre as aplicações, podemos exemplificá-las com algumas que seguem:
+\begin{itemize}
+\item programas de tradução;
+\item análise de sentimento;
+\item sumarização automática;
+\item filtro de SPAM;
+\item reconhecimento de voz.
+\end{itemize}
+Além disso, o mercado para essa área está em contínuo crescimento (é esperado que movimente cerca de \$22 bilhões em 2025\footnote{COLE, Arthur. \textit{Natural Language Processing Turns to the Enterprise}. Disponível em: <https://www.itbusinessedge.com/blogs/infrastructure/natural-language-processing-turns-to-the-enterprise.html>. Acesso em: 07 de maio de 2018}) e desperta o interesse de empresas como Google, Facebook e Microsoft.
+
+
+\section{Relação com outras disciplinas}
+
+\begin{table}[h]
+\centering
+\caption{Relação de PLN com outras disciplinas}
+\label{my-label}
+\begin{tabular}{|l|p{8.0cm}|}
+\toprule
+\textbf{Cadeiras} & \textbf{Relação} \\ \midrule
+ET586 - Estatística e probabilidade para computação & Um dos conhecimentos prévios necessários para conseguir desenvolver programas de PLN está relacionado com noções básicas de probabilidade, uma vez que é necessário métodos para desambiguizar sentenças, por exemplo. \\ \midrule
+IF669 - Introdução à programação                    & Como a cadeira visa, inclusive, o desenvolvimento de programas que processem linguagem natural, é impresindível conhecimento de programação.                                                                           \\ \midrule
+IF759 - Processamento de voz                        & PLN funciona como um dos pré-requisitos para essa cadeira, já que aquela trata de temas basilares à esta, como processamento sintático e interpretação semântica.                                                      \\ \midrule
+MA026 - Cálculo diferencial e integral I            & Noções como derivadas e como máximos e mínimos de funções são aplicadas nos estudos de PLN.                                                                                                                            \\ \midrule
+MA531 - Álgebra vetorial e linear para computação   & Um dos modelos mais populares de PLN, word2vec, que trabalha com palavras em espaços vetoriais. Por isso, é preciso instrução relacionado a vetores e a espaços vetoriais.                                             \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\nocite{martin2009speech}
+\nocite{schutze2008introduction}
+\nocite{bird2009natural}
+
+\bibliographystyle{plain}
+\bibliography{wrs}
+
+
+\end{document}
