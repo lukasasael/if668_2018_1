@@ -1,0 +1,101 @@
+\documentclass[a4paper]{article}
+
+%% Language and font encodings
+\usepackage[brazil]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+
+%% Sets page size and margins
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+%% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+\title{IF667 - Infra-estrutura de software}
+\author{Vinícius de Sousa Vilela}
+
+\begin{document}
+\maketitle
+
+\section{Introdução}
+
+Nos cursos de computação, é uma competência de caratér essencial buscar entender o comportamento operacional do computador, ou seja, entender desde os processos mais simples até os de elevada complexidade. Para isso, a disciplina obrigatória de infra-estrutura de software presente na grade curricular dos cursos de ciência da computação e engenharia da computação, no \textit{Centro de Informática}, \cite{CInWiki} visa fazer os alunos entenderem o funcionamento dos sistemas de software que fornecem uma infra-estrutura através da da qual aplicativos podem interagir com hardware.
+
+\section{Relevância}
+
+Essa cadeira está presente no 4º período do curso de ciência da computação com uma carga horária de \cite{SiteDisciplina} 75 horas totais, 45 horas de teoria e 30 horas de prática, sendo ministrada pelo professor Carlos Ferraz. Somente ao ler sobre a disciplina, é possível ter a impressão que conceitos primitivos sobre software são abordados de forma muito embasada. Não é para menos, devido ao fato dessa cadeira ser de suma importância para as habilidades que um cientista da computação, provavelmente, necessitará exercer durante sua vida profissional. É através dos conhecimentos adquiridos nela que o profissional de computação se torna mais capacitado para investigar, projetar e desenvolver sistemas essenciais para o funcionamento do computador. Exemplo disso é o fato de que os alunos devem, ao final da disciplina, ter domínio de compreender os mecanismos necessários para construção de tal infra-estrutura. 
+\linebreak 
+\newline 
+A disciplina é dividida em dois módulos para melhor organizar o conhecimento e para facilitar o aprendizado: Sistemas operacionais e sistemas distribuídos:
+
+\begin{enumerate}
+\item \textbf{Sistemas operacionais}  
+	\begin{itemize}
+	\item Processos
+	\item Escalonamento
+	\item Memória Virtual
+	\item Dispositivos de Entrada/Saída
+	\end{itemize}
+\item \textbf{Sistemas distribuídos} 
+	\begin{itemize}
+	\item Concorrência
+    \item Sistemas Distribuídos
+    \item Middleware
+	\end{itemize}
+\end{enumerate}
+
+\subsection{Pontos positivos}
+
+\cite{CInWiki}A disciplina por si só já é um ponto positivo. Pensando assim, é interessante ressaltar algumas das vantagens que o Centro de Informática fornece para o estudante dessa cadeira:
+
+\begin{itemize}
+\item Divisão da disciplina em dois módulos.
+\item Relação de forma harmoniosa com outras duas disciplinas de infra-estrutura, a de hardware e a de comunicação.
+\item Construção de uma base sólida para a compreensão completa de sistema computacional.
+ 
+\end{itemize}
+
+\subsection{Pontos negativos}
+
+É difícil pensar em pontos negativos para tal disciplina, sendo assim, os pontos abaixos são de características que se tem a impressão que podem ser mais elaboradas:
+
+\begin{itemize}
+
+\item Maior elaboração do sistema de avaliação.
+\item Nivelar mais o tempo entre aula teorica e prática.
+ 
+\end{itemize}
+
+\section{Relação com outras disciplinas}
+
+A disciplina de infra-estrutura de software se relaciona com outras duas disciplinas de forma bastante integrada: Infra-estrutura de comunicação e infra-estrutura de hardware. Juntas as três fornecem um panorama razoavelmente completo sobre o funcionamento de um sistema computacional.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=70mm]{imagemInfra.png}
+\caption{Slide de aula do Prof. Carlos Ferraz \cite{SlideAula}}
+\label{fig:method}
+\end{figure}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lllll}
+\cline{1-2}
+\multicolumn{1}{|c|}{\begin{tabular}[c]{@{}c@{}}IF678 - \\ Infra-estrutura \\ de\\  comunicação\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Nessa cadeira o aluno aprende sobre o funcionamento\\ de redes, unindo isso a infra-estrutura de software o \\ aluno é capaz de desenvolver de forma plena e \\ consistente softwares projetados para suportar de forma \\ engenhosa programas com uma maior eficiência para \\ transitar informações, ou seja, para se comunicar.\end{tabular}} &  &  &  \\ \cline{1-2}
+\multicolumn{1}{|c|}{\begin{tabular}[c]{@{}c@{}}IF674 - \\ Infra-estrutura \\ de \\ hardware\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Na cadeira de infra-estrutura de hardware, o aluno é \\ apresentado aos conceitos básicos da estrutura da \\ elaboração de um hardware. Levando em conta a relação\\ mutualística entre software e hardware, a cadeira de \\ infra-estrutura de software e infra-estruturade hardware\\ se tornam altamente relacionadas.\end{tabular}} &  &  &  \\ \cline{1-2}
+ &  &  &  &  \\
+ &  &  &  & 
+\end{tabular}
+\end{table}
+
+
+
+
+
+\bibliographystyle{unsrt}
+\bibliography{vsv}
+
+\end{document}
